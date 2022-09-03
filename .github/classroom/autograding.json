@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Obtener siguientes",
+      "setup": "npm install",
+      "run": "npm run test obtenerSiguientes.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 40
+    },
+    {
+      "name": "Obtener suma",
+      "setup": "",
+      "run": "npm run test obtenerSuma.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 40
+    },
+    {
+      "name": "Obtener resultado",
+      "setup": "",
+      "run": "npm run test obtenerResultado.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
